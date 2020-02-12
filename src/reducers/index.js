@@ -1,7 +1,7 @@
-import { conbineReducers} from 'redux'
+import { combineReducers} from 'redux'
 import count from './count'
 
-export default conbineReducers({ count })
+export default combineReducers({ count })
 
 
 // 複数ある場合以下のように記述できる
